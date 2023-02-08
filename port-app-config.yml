@@ -9,6 +9,6 @@ resources:
           title: ".name"
           blueprint: '"dudi"'
           properties:
-            url: ".html_url" # fetching from GitHub metadata the repository url and injecting it as a url proeprty
+            url: ".html_url" # fetching from GitHub    metadata the repository url and injecting it as a url proeprty
             description: ".description" # fetching from GitHub metadata the description and injecting it as a markdown proeprty
             readme: file://README.md
